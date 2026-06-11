@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIMHA — Strength Club | Colombo, Sri Lanka</title>
+  <meta name="description" content="SIMHA Strength Club — Sri Lanka's boldest training floor in the heart of Colombo. Awaken the lion within." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Grain / texture overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <span class="preloader__mark">සිංහ</span>
+      <h1 class="preloader__name">SIMHA</h1>
+      <div class="preloader__bar"><span id="preBar"></span></div>
+      <div class="preloader__count"><span id="preCount">0</span>%</div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo" data-cursor="hover">
+      <span class="nav__logo-mark">▲</span> SIMHA
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about" data-cursor="hover">About</a>
+      <a href="#programs" data-cursor="hover">Programs</a>
+      <a href="#coaches" data-cursor="hover">Coaches</a>
+      <a href="#pricing" data-cursor="hover">Membership</a>
+      <a href="#schedule" data-cursor="hover">Schedule</a>
+      <a href="#contact" data-cursor="hover">Contact</a>
+    </nav>
+    <a href="#pricing" class="btn btn--gold nav__cta" data-cursor="hover">Join Now</a>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal-up">Colombo · Sri Lanka · Est. 2016</p>
+      <h1 class="hero__title">
+        <span class="line"><span>AWAKEN</span></span>
+        <span class="line"><span>THE <em>LION</em></span></span>
+        <span class="line"><span>WITHIN</span></span>
+      </h1>
+      <p class="hero__sub reveal-up">
+        Sri Lanka's boldest training floor. Iron, sweat, and discipline —
+        forged for those who refuse to stay ordinary.
+      </p>
+      <div class="hero__actions reveal-up">
+        <a href="#pricing" class="btn btn--gold" data-cursor="hover">Start Training</a>
+        <a href="#programs" class="btn btn--ghost" data-cursor="hover">Explore Programs</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marquee">
+      <span>STRENGTH</span><span class="dot">●</span>
+      <span>DISCIPLINE</span><span class="dot">●</span>
+      <span>SImHA</span><span class="dot">●</span>
+      <span>POWER</span><span class="dot">●</span>
+      <span>NO EXCUSES</span><span class="dot">●</span>
+      <span>STRENGTH</span><span class="dot">●</span>
+      <span>DISCIPLINE</span><span class="dot">●</span>
+      <span>SIMHA</span><span class="dot">●</span>
+      <span>POWER</span><span class="dot">●</span>
+      <span>NO EXCUSES</span><span class="dot">●</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stat" data-count="3200" data-suffix="+">
+      <h3 class="stat__num">0</h3>
+      <p>Active Members</p>
+    </div>
+    <div class="stat" data-count="24" data-suffix="">
+      <h3 class="stat__num">0</h3>
+      <p>Expert Coaches</p>
+    </div>
+    <div class="stat" data-count="18000" data-suffix=" sq.ft">
+      <h3 class="stat__num">0</h3>
+      <p>Training Floor</p>
+    </div>
+    <div class="stat" data-count="9" data-suffix=" yrs">
+      <h3 class="stat__num">0</h3>
+      <p>In Colombo</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__media">
+      <div class="about__img about__img--main"></div>
+      <div class="about__img about__img--sub"></div>
+      <div class="about__badge">
+        <span>9</span>
+        <small>Years Strong</small>
+      </div>
+    </div>
+    <div class="about__text">
+      <p class="section__eyebrow reveal-up">/ Who We Are</p>
+      <h2 class="section__title reveal-up">
+        More than a gym.<br />A <em>pride</em> of fighters.
+      </h2>
+      <p class="reveal-up">
+        Born in Colombo in 2016, SIMHA was built on one belief — that ordinary
+        people carry extraordinary strength. We don't sell memberships. We forge
+        warriors. From the first deadlift to your personal best, our coaches stand
+        in the trenches with you.
+      </p>
+      <ul class="about__list">
+        <li class="reveal-up"><span>01</span> World-class strength &amp; conditioning floor</li>
+        <li class="reveal-up"><span>02</span> Certified Sri Lankan &amp; international coaches</li>
+        <li class="reveal-up"><span>03</span> Nutrition &amp; recovery built into every plan</li>
+        <li class="reveal-up"><span>04</span> A community that pushes you past your limits</li>
+      </ul>
+      <a href="#coaches" class="btn btn--gold reveal-up" data-cursor="hover">Meet The Coaches</a>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs" id="programs">
+    <div class="programs__head">
+      <p class="section__eyebrow reveal-up">/ What We Train</p>
+      <h2 class="section__title reveal-up">Programs forged<br />for <em>every</em> warrior</h2>
+    </div>
+
+    <div class="programs__grid">
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">01</span>
+        <h3>Strength &amp; Power</h3>
+        <p>Barbell-driven training to build raw, functional strength from the ground up.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">02</span>
+        <h3>HIIT &amp; Conditioning</h3>
+        <p>High-intensity circuits that torch fat and forge an engine that never quits.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">03</span>
+        <h3>Boxing &amp; Combat</h3>
+        <p>Footwork, power, and grit. Learn to fight — and carry that confidence everywhere.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">04</span>
+        <h3>Functional Fitness</h3>
+        <p>Move better, live stronger. Real-world movement for real-world life.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">05</span>
+        <h3>Yoga &amp; Mobility</h3>
+        <p>Balance the iron with breath. Restore, recover, and move without limits.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+      <article class="prog" data-cursor="hover">
+        <span class="prog__num">06</span>
+        <h3>Personal Coaching</h3>
+        <p>One-on-one guidance built entirely around your body, your goals, your pace.</p>
+        <span class="prog__arrow">→</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- QUOTE / PARALLAX BREAK -->
+  <section class="quote">
+    <div class="quote__bg" aria-hidden="true"></div>
+    <div class="quote__overlay" aria-hidden="true"></div>
+    <blockquote class="quote__text reveal-up">
+      “The iron never lies. It shows you exactly<br />who you are — and who you can become.”
+    </blockquote>
+    <p class="quote__author reveal-up">— The SIMHA Code</p>
+  </section>
+
+  <!-- COACHES -->
+  <section class="coaches" id="coaches">
+    <div class="coaches__head">
+      <p class="section__eyebrow reveal-up">/ The Pride</p>
+      <h2 class="section__title reveal-up">Coaches who<br />fight <em>beside</em> you</h2>
+    </div>
+
+    <div class="coaches__grid">
+      <article class="coach c1" data-cursor="hover">
+        <div class="coach__photo"></div>
+        <div class="coach__info">
+          <h3>Dinuka Perera</h3>
+          <p>Head Strength Coach</p>
+        </div>
+      </article>
+      <article class="coach c2" data-cursor="hover">
+        <div class="coach__photo"></div>
+        <div class="coach__info">
+          <h3>Ishara Fernando</h3>
+          <p>HIIT &amp; Conditioning</p>
+        </div>
+      </article>
+      <article class="coach c3" data-cursor="hover">
+        <div class="coach__photo"></div>
+        <div class="coach__info">
+          <h3>Roshan Silva</h3>
+          <p>Boxing &amp; Combat</p>
+        </div>
+      </article>
+      <article class="coach c4" data-cursor="hover">
+        <div class="coach__photo"></div>
+        <div class="coach__info">
+          <h3>Tharushi Jayawardena</h3>
+          <p>Yoga &amp; Mobility</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="pricing__head">
+      <p class="section__eyebrow reveal-up">/ Membership</p>
+      <h2 class="section__title reveal-up">Choose your<br /><em>battlefield</em></h2>
+      <p class="pricing__note reveal-up">No hidden fees. Cancel anytime. All prices in LKR.</p>
+    </div>
+
+    <div class="pricing__grid">
+      <article class="plan reveal-up" data-cursor="hover">
+        <h3 class="plan__name">Cub</h3>
+        <p class="plan__for">For those starting the journey</p>
+        <div class="plan__price"><span class="cur">Rs.</span>6,500<span class="per">/mo</span></div>
+        <ul class="plan__feats">
+          <li>Full gym floor access</li>
+          <li>Locker &amp; shower facilities</li>
+          <li>2 group classes / week</li>
+          <li>Fitness assessment</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost" data-cursor="hover">Get Started</a>
+      </article>
+
+      <article class="plan plan--featured reveal-up" data-cursor="hover">
+        <span class="plan__tag">Most Popular</span>
+        <h3 class="plan__name">Lion</h3>
+        <p class="plan__for">For the committed warrior</p>
+        <div class="plan__price"><span class="cur">Rs.</span>11,900<span class="per">/mo</span></div>
+        <ul class="plan__feats">
+          <li>Everything in Cub</li>
+          <li>Unlimited group classes</li>
+          <li>Personal training (2/mo)</li>
+          <li>Custom nutrition plan</li>
+          <li>Recovery &amp; sauna access</li>
+        </ul>
+        <a href="#contact" class="btn btn--gold" data-cursor="hover">Join The Pride</a>
+      </article>
+
+      <article class="plan reveal-up" data-cursor="hover">
+        <h3 class="plan__name">Apex</h3>
+        <p class="plan__for">For total transformation</p>
+        <div class="plan__price"><span class="cur">Rs.</span>22,500<span class="per">/mo</span></div>
+        <ul class="plan__feats">
+          <li>Everything in Lion</li>
+          <li>Unlimited 1-on-1 coaching</li>
+          <li>Weekly body composition scan</li>
+          <li>Priority class booking</li>
+          <li>Dedicated coach hotline</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost" data-cursor="hover">Go Apex</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section class="schedule" id="schedule">
+    <div class="schedule__head">
+      <p class="section__eyebrow reveal-up">/ Weekly Grind</p>
+      <h2 class="section__title reveal-up">Class <em>schedule</em></h2>
+    </div>
+
+    <div class="schedule__table reveal-up">
+      <div class="srow srow--head">
+        <span>Time</span><span>Mon</span><span>Wed</span><span>Fri</span><span>Sat</span>
+      </div>
+      <div class="srow">
+        <span class="stime">06:00</span>
+        <span class="cell c-str">Strength</span>
+        <span class="cell c-hiit">HIIT</span>
+        <span class="cell c-str">Strength</span>
+        <span class="cell c-fun">Functional</span>
+      </div>
+      <div class="srow">
+        <span class="stime">09:00</span>
+        <span class="cell c-yoga">Yoga</span>
+        <span class="cell c-box">Boxing</span>
+        <span class="cell c-yoga">Yoga</span>
+        <span class="cell c-box">Boxing</span>
+      </div>
+      <div class="srow">
+        <span class="stime">17:30</span>
+        <span class="cell c-hiit">HIIT</span>
+        <span class="cell c-str">Strength</span>
+        <span class="cell c-box">Boxing</span>
+        <span class="cell c-fun">Functional</span>
+      </div>
+      <div class="srow">
+        <span class="stime">19:00</span>
+        <span class="cell c-box">Boxing</span>
+        <span class="cell c-fun">Functional</span>
+        <span class="cell c-hiit">HIIT</span>
+        <span class="cell c-yoga">Mobility</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta__bg" aria-hidden="true"></div>
+    <div class="cta__overlay" aria-hidden="true"></div>
+    <div class="cta__content">
+      <p class="section__eyebrow reveal-up">/ Your time is now</p>
+      <h2 class="cta__title reveal-up">Stop wishing.<br /><em>Start training.</em></h2>
+      <p class="reveal-up">Your first session is on us. Walk in. We'll handle the rest.</p>
+      <a href="#contact" class="btn btn--gold reveal-up" data-cursor="hover">Claim Free Session</a>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">SIMHA</a>
+        <p>Awaken the lion within. Sri Lanka's home of strength, sweat, and self-respect.</p>
+        <div class="footer__socials">
+          <a href="#" data-cursor="hover" aria-label="Instagram">IG</a>
+          <a href="#" data-cursor="hover" aria-label="Facebook">FB</a>
+          <a href="#" data-cursor="hover" aria-label="YouTube">YT</a>
+          <a href="#" data-cursor="hover" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <p>No. 142, Marine Drive<br />Bambalapitiya, Colombo 04<br />Sri Lanka</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Reach Us</h4>
+        <p><a href="tel:+94112345678" data-cursor="hover">+94 11 234 5678</a></p>
+        <p><a href="mailto:hello@simha.lk" data-cursor="hover">hello@simha.lk</a></p>
+      </div>
+
+      <div class="footer__col footer__hours">
+        <h4>Hours</h4>
+        <p>Mon – Fri · 5:00 – 23:00</p>
+        <p>Sat – Sun · 6:00 – 21:00</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 SIMHA Strength Club · Colombo, Sri Lanka</p>
+      <p>Built with iron &amp; intent.</p>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

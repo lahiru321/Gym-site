@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies (none currently, but future-proof)
+node_modules/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
